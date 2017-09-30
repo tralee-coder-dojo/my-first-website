@@ -11,11 +11,11 @@
 			
 			#MyDiv{
 				background-color: blue;
-				color: white;
 			}
 			
 			#left{
 				background-color: red;
+				width: 200px;
 			}
 			
 			
@@ -31,8 +31,17 @@
 			<p>Hello, my name is Conor.</p>
 		</div>
 		
-		<div id="left">
+		<h2>What Can JavaScript Do?</h2>
+
+		<p id="demo">JavaScript can change HTML content.</p>
+		<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>
+		Click Me!
+		</button>
 		
+		<div id="left">
+			<p><a href="Page1.html">Link to my other page</a></p>
+			<p><a href="Page2.html">Link to page 2</a> my name is dave</p>
+			<p><a href="https://www.google.ie/">Link to google</a></p>
 		</div>
 		
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/J_ub7Etch2U" frameborder="0" allowfullscreen></iframe>
